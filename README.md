@@ -10,3 +10,7 @@ See the live website [here](https://fall-guys-perfect-match.netlify.app).
 - CSS
 - JavaScript
 - Prettier (Must be configured in your editor)
+
+## License
+
+[MIT](LICENSE)

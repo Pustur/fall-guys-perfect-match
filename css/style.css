@@ -116,32 +116,32 @@ kbd {
 }
 
 .fruit-0 {
-  background-image: url(../img/bananas.svg);
+  background-image: url(../img/fruits/bananas.svg);
   background-color: #982bb6;
 }
 
 .fruit-1 {
-  background-image: url(../img/cherries.svg);
+  background-image: url(../img/fruits/cherries.svg);
   background-color: #d9de51;
 }
 
 .fruit-2 {
-  background-image: url(../img/grapes.svg);
+  background-image: url(../img/fruits/grapes.svg);
   background-color: #69d170;
 }
 
 .fruit-3 {
-  background-image: url(../img/mango.svg);
+  background-image: url(../img/fruits/mango.svg);
   background-color: #4ad0d5;
 }
 
 .fruit-4 {
-  background-image: url(../img/orange.svg);
+  background-image: url(../img/fruits/orange.svg);
   background-color: #2e93da;
 }
 
 .fruit-5 {
-  background-image: url(../img/watermelon.svg);
+  background-image: url(../img/fruits/watermelon.svg);
   background-color: #fecf27;
 }
 

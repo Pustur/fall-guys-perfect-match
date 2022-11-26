@@ -1,11 +1,11 @@
 // Functions
-function removeFruitFromPlatform(platform) {
-  platform.classList.remove(...[0, 1, 2, 3, 4, 5].map(num => `fruit-${num}`));
+function removeIconFromPlatform(platform) {
+  platform.classList.remove(...[0, 1, 2, 3, 4, 5].map(num => `icon-${num}`));
 }
 
 function keyDownHandler(e) {
   if (e.keyCode === R_KEYCODE) {
-    platformButtons.forEach(removeFruitFromPlatform);
+    platformButtons.forEach(removeIconFromPlatform);
   }
 }
 
@@ -15,11 +15,11 @@ function mouseDownHandler(e) {
   if (e.button === MOUSE_LEFT) {
     const index = Array.from(e.target.parentNode.children).indexOf(e.target);
 
-    removeFruitFromPlatform(e.currentTarget);
+    removeIconFromPlatform(e.currentTarget);
 
     if (e.target.tagName !== 'IMG') return;
 
-    e.currentTarget.classList.add(`fruit-${index}`);
+    e.currentTarget.classList.add(`icon-${index}`);
   }
 }
 

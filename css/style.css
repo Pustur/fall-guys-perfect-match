@@ -115,34 +115,64 @@ kbd {
   outline: 0;
 }
 
-.fruit-0 {
+.fruits .icon-0 {
   background-image: url(../img/fruits/bananas.svg);
   background-color: #982bb6;
 }
 
-.fruit-1 {
+.fruits .icon-1 {
   background-image: url(../img/fruits/cherries.svg);
   background-color: #d9de51;
 }
 
-.fruit-2 {
+.fruits .icon-2 {
   background-image: url(../img/fruits/grapes.svg);
   background-color: #69d170;
 }
 
-.fruit-3 {
+.fruits .icon-3 {
   background-image: url(../img/fruits/mango.svg);
   background-color: #4ad0d5;
 }
 
-.fruit-4 {
+.fruits .icon-4 {
   background-image: url(../img/fruits/orange.svg);
   background-color: #2e93da;
 }
 
-.fruit-5 {
+.fruits .icon-5 {
   background-image: url(../img/fruits/watermelon.svg);
   background-color: #fecf27;
+}
+
+.space .icon-0 {
+  background-image: url(../img/space/orb.svg);
+  background-color: #fb9a45;
+}
+
+.space .icon-1 {
+  background-image: url(../img/space/planet.svg);
+  background-color: #c8cac2;
+}
+
+.space .icon-2 {
+  background-image: url(../img/space/rocket.svg);
+  background-color: #fbbc19;
+}
+
+.space .icon-3 {
+  background-image: url(../img/space/screw.svg);
+  background-color: #87c68d;
+}
+
+.space .icon-4 {
+  background-image: url(../img/space/shoe.svg);
+  background-color: #f4025d;
+}
+
+.space .icon-5 {
+  background-image: url(../img/space/star.svg);
+  background-color: #09a9f8;
 }
 
 .overlay {
